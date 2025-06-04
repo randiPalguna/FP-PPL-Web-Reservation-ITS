@@ -1,0 +1,4 @@
+[Observer] Login attempt for: halo@gmail.com | Success: false
+[Observer] Login attempt for: budi@its.ac.id | Success: true
+[Observer] Registration attempt for: ryan@gmail.com | Success: true
+[Observer] Login attempt for: ryan@gmail.com | Success: true
