@@ -28,9 +28,9 @@ public abstract class UserModel {
 	}
 
 	public boolean login(String email, String password) {
-		return this.userEmail.equals(email) &&
-			   this.passwordHash != null &&
-			   this.passwordHash.equals(password + "_hashed");
+	    return this.userEmail.equals(email) &&
+	           this.passwordHash != null &&
+	           this.passwordHash.equals(password + "_hashed");
 	}
 
 	protected void setPasswordHash(String plainPassword) {
